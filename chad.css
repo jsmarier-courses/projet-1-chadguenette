@@ -5,8 +5,28 @@ html, body {
     color: #666666;
 }
 
+.titrebleu {
+    color: white; font-size: large;
+}
+
+.legendenavy {
+    color: navy; font-size: small;
+}
+
+.texte {
+    color: black; font-size: large;
+}
+
+.creditphoto {
+    color: grey; font-size: 9px;
+}
+
+.soustitre {
+    color: black; font-size: 25px; font-weight: bold;
+}
+
 body {
-    background-color: whitesmoke;
+    background-color:white;
 }
 
 .top-bar {
@@ -14,6 +34,7 @@ body {
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    background-color: #131359;
 }
 
 .logo {
@@ -21,12 +42,12 @@ body {
    position: absolute;
    padding: 0px 0px 0px 20px;
    z-index: 3;
-   color: #131359;
+   color:navy
    font-weight: bold;
 }
 
 .top-menu {
-   background-color: #131359;
+   background-color: royalblue;
    position: absolute;
    top: 85px;
    z-index: 2;
@@ -51,11 +72,11 @@ body {
 }
 
 .top-menu li a:hover {
-    background-color: red;
+    background-color: navy;
 }
 
 .current-page-link {
-    background-color: #db0e0e;
+    background-color: navy;
 }
 
 .page-content {
@@ -79,7 +100,7 @@ body {
 .main-section figure, .main-section img {
     display: block;
     margin: auto;
-    width: 800px;
+    width: 400px;
 }
 
 .footer {
@@ -89,15 +110,15 @@ body {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-color:#3f3c3c;
+    background-color:royalblue;
 }
 
 .footer-content {
-    padding: 5px 5px 5px 20px;
-    color: white;
+    padding: 2px 2px 2px 1px;
+    color: whitesmoke;
 }
 
 .footer-content a:link {
-    color: white;
+    color: navy;
     text-decoration: none;
 }
